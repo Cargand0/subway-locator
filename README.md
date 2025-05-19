@@ -111,3 +111,16 @@ subway-outlet-locator/
 * GET /api/outlets/{id} - Get outlet by ID
 * GET /api/outlets/search - Search outlets by query parameters
 * GET /api/outlets/near - Find outlets near coordinates
+
+---
+
+## Run Instructions
+1. Run the API server
+```bash
+python run.py api
+```
+
+2. Run the web application
+```bash
+python run.py frontend
+```
