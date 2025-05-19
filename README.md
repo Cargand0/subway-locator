@@ -10,6 +10,8 @@ A comprehensive application for finding and visualizing Subway restaurant locati
 * Detailed Outlet Information: Access complete information about each outlet
 * RESTful API: Full-featured API for programmatic access to outlet data
 
+---
+
 ## 🛠️ Technology Stack
 * Backend: Python, FastAPI
 * Frontend: Flask, HTML, CSS, JavaScript
@@ -18,10 +20,14 @@ A comprehensive application for finding and visualizing Subway restaurant locati
 * Geocoding: Nominatim service
 * Database: SQLite/JSON (for data storage)
 
+---
+
 ## 🚀 Installation
 ### Prerequisites
 * Python 3.8+
 * Git
+
+---
 
 ## Setup Instructions
 1. Clone the repository
@@ -62,6 +68,8 @@ python -m src.frontend.app
 8. Access the application
 Open your browser and go to http://localhost:5000
 
+---
+
 ## 🗂️ Project Structure
 ```
 subway-outlet-locator/
@@ -95,8 +103,10 @@ subway-outlet-locator/
     └── test_*.py
 ```
 
+---
+
 ## 📖 API Documentation
-###Endpoints
+### Endpoints
 * GET /api/outlets - Get all outlets
 * GET /api/outlets/{id} - Get outlet by ID
 * GET /api/outlets/search - Search outlets by query parameters
