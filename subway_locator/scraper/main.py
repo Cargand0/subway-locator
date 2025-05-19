@@ -1,4 +1,3 @@
-# subway_locator/scraper/main.py
 import logging
 import os
 from .scraper import SubwayScraper

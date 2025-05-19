@@ -1,4 +1,3 @@
-# subway_locator/utils/geocoder.py
 import logging
 import time
 from geopy.geocoders import Nominatim

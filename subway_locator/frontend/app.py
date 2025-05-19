@@ -1,4 +1,3 @@
-# subway_locator/frontend/app.py
 from flask import Flask, render_template, jsonify, request
 import os
 import requests

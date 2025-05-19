@@ -1,4 +1,3 @@
-// subway_locator/frontend/static/main.js
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize map centered on Kuala Lumpur
     const map = L.map('map').setView([3.1390, 101.6869], 12);
